@@ -1,0 +1,199 @@
+% Welcome to the simple Undergraduate Complexity Research CV-resume template!
+% Please delete any sections that do not apply to your past experiences. We do not expect that applicants will have itmes for all of the sections included here. You can also rename or revise sections to best fit with your personal accomplishments.
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+\usepackage{baskervillef}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\setlength{\footskip}{10pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{0.0in}
+\addtolength{\evensidemargin}{0.0in}
+\addtolength{\textwidth}{0.0in}
+\addtolength{\topmargin}{0.2in}
+\addtolength{\textheight}{0.0in}
+
+
+\urlstyle{same}
+
+%\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{3pt}
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      {\small #3} & {\small #4} \\
+    \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\researchHeadingLong}[4]{
+    \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \\
+        \textbf{#2} \\
+        #3 \\
+        #4 \\
+        \end{tabular*}\vspace{-10pt}
+}
+
+\newcommand{\researchHeading}[3]{
+    \vspace{-2pt}\item
+        \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} \\
+        #2 \\
+        #3 \\
+        \end{tabular*}\vspace{-10pt}
+}
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-3pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\begin{document}
+
+
+\begin{center}
+    {\LARGE \textbf{Muhammad Ehsaan Khaliq}} \\ \vspace{0pt}
+    \begin{multicols}{2}
+    \space
+
+        \begin{flushleft}
+        \large{Lahore, 54590} \\
+        \large{Punjab, Pakistan} \\
+        \href{tel:+923346846309}{+92 334 6846309} \\
+        \end{flushleft}
+        
+        \begin{flushright}
+        % this could be LinkedIn, GitHub, or a personal website or social media account (if used for professional purposes)
+        \large{Github}: \href{https://github.com/meharehsaan}{\underline{meharehsaan}} \\
+        \large{LinkedIn}: \href{https://www.linkedin.com/in/meharehsaan}{\underline{meharehsaan}} \\
+        \large{Webiste}: \href{https://meharehsaan.me}{\underline{meharehsaan.me}} \\
+        % please ensure your email address is one you check
+        \large{Email}: \href{mailto:ehsmehar@gmail.com}{ehsmehar@gmail.com}
+        \end{flushright}
+    \end{multicols}
+\end{center}
+
+%-----------EDUCATION-----------
+% Please list your current institution first and then past schools in reverse chronology. No need for GPA, etc. You do not need to include high school but may do so if there are accomplishments you would like to highlight.
+\section{Education}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Punjab University College of Information Technology}{October, 2020 -- Present}
+        {Bachelor of Science - Information Technology}{Lahore, Punjab, Pakistan}
+        \resumeItemListStart
+            \resumeItem{Expected graduation: July 2024}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {Superior College Burewala}{2018 - 2020}
+        {Fsc - Pre Engineering}{Burewala, Punjab, Pakistan}
+        \vspace*{1pt}   
+
+\resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+% This section can include programming or spoken languages, text editing and general software knowledge, certifications, version control or project management tools, or other skills that might be relevant. You can include as many or as few as you like: delete or add as needed.  
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \normalsize{\item{
+     \textbf{Programming Languages}{: C/C++, Java, Javascript, Python, x86-64 Assembly} \\
+     \textbf{Tools}{: GDB, PEDA, IDA, Git} \\
+     \textbf{OS}{: Windows, Linux} \\
+     \textbf{Languages}{: English, Urdu, Punjabi} \\
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+    
+        
+        \resumeSubheading
+            {Student Feedback System}{Php, Mysql}
+            {\href{https://github.com/meharehsaan/feedbacksystem}{https://github.com/meharehsaan/feedbacksystem}}{}
+            \resumeItemListStart
+                \resumeItem{Its a secure student feedback system to the college faculty. Admin is managing all the things and monitoring the feedbacks. All entites login on the same space.}
+            \resumeItemListEnd
+        
+        \resumeSubheading
+            {Socket Programming}{Python, Java}
+            {\href{https://github.com/meharehsaan/socketprogramming}{https://github.com/meharehsaan/socketprogramming}}{}
+            \resumeItemListStart
+                \resumeItem{In Python sockets File Transfer Protocol FTP, Stop and Wait and Go-back-N protocols are implemented in UDP sockets.}
+                \resumeItem{In java sockets Simple java sockets are implemented using streams in java.}
+            \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional Experience}
+% if you have been employed, do volunteer activities, or have held other formal or informal jobs, you can list them here.   
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+        {Teaching Assistant (Object Oriented Programming)}{October, 2022 -- March 2023}
+        {PUCIT - University of the Punjab}{Lahore, Punjab, Pakistan}
+        \resumeItemListStart
+            \resumeItem{Assisted students in the lab + other TA responsibilities}
+          \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------HOBBIES AND INTERESTS-----------
+\section{Hobbies \& Interests}
+% This section can include courses you have taken, or MOOCs you have completed. You can remove or add sections as needed.
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \normalsize{\item{
+        \resumeItemListStart
+            \resumeItem{Web Development}
+            \resumeItem{Cyber Security}
+            \resumeItem{Operating System}
+            \resumeItem{Computer Architecture}
+        \resumeItemListEnd
+    }}
+    
+ \end{itemize}
+
+
+\end{document}
